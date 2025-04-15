@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planets</title>
+  <style>
+    body {
+      background-color: #f5eaea;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main {
+      max-width: 700px;
+      margin: 20px auto;
+      background-color: #1f1f3f;
+      padding: 20px;
+      border-radius: 15px;
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+
+    .header img {
+      width: 50px;
+      height: auto;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 32px;
+      font-family: 'Georgia', serif;
+      margin: 10px 0 20px 0;
+    }
+
+    .top-images {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .top-images img {
+      width: 49%;
+      border-radius: 10px;
+    }
+
+    .bottom-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .bottom-image img {
+      width: 95%;
+      border-radius: 10px;
+    }
+
+    .description {
+      font-size: 16px;
+      background-color: #333366;
+      padding: 12px;
+      border-radius: 10px;
+      line-height: 1.6;
+      font-family: 'Courier New', monospace;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+      <img src="https://i.ibb.co/3mxWqfBp/IMG-20250414-WA0038.jpg" alt="Space Logo 1" />
+       </div>
+
+    <div class="title">PLANETS</div>
+
+    <div class="top-images">
+      <img src="https://i.ibb.co/PsyYX5Fm/IMG-20250414-WA0042.jpg" alt="Solar System" />
+      <img src="https://i.ibb.co/RkTNHCdT/IMG-20250414-WA0043.jpg" alt="Planets Overview" />
+    </div>
+
+    <div class="bottom-image">
+      <img src="https://i.ibb.co/RTNc61mD/IMG-20250414-WA0050.jpg" alt="Planet Sizes" />
+    </div>
+
+    <div class="description">
+      Planets are celestial bodies that orbit the sun and have enough gravity to stay in their orbit. They don't produce their own light, but reflect the sun's light.
+    </div>
+  </div>
+</body>
+</html>

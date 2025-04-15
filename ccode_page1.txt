@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Explorer - Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #f3e6e3; /* matches your light pink background */
+    }
+
+    .nav-container {
+      background-color: #9a7b74;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      color: white;
+    }
+
+    .menu-bar {
+      background-color: #2f2f5d;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .menu-bar a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+
+    .content {
+      background-color: #2f2f5d;
+      color: white;
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image-row img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav-container">
+    search
+  </div>
+
+  <div class="menu-bar">
+    <a href="#">home</a>
+    <a href="#">mission</a>
+    <a href="#">space</a>
+    <a href="#">planets</a>
+    <a href="#">contact us!!</a>
+    <a href="#">control</a>
+    <a href="#">crafts</a>
+  </div>
+
+  <div class="content">
+    <div class="image-row">
+      <img src="https://i.ibb.co/3mxWqfBp/IMG-20250414-WA0038.jpg" alt="Logo 1">
+      <img src="https://i.ibb.co/9mL7Mnn8/p183.png" alt="p183" border="0" /></a>
+      <img src="https://i.ibb.co/NdCRW0Gm/IMG-20250414-WA0040.jpg" alt="IMG-20250414-WA0040" border="0" /></a>
+  </div>
+
+</body>
+</html>

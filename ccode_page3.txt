@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Explorer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f3e6e3; /* Matches your image's background */
+    }
+
+    .container {
+      background-color: #2f2f5d;
+      color: white;
+      width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header-images {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+
+    .header-images img {
+      width: 100px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .welcome-text p {
+      margin: 5px;
+      font-size: 24px;
+    }
+
+    .highlight {
+      font-size: 32px;
+      font-family: 'Comic Sans MS', cursive;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-images">
+      <img src="https://i.ibb.co/3mxWqfBp/IMG-20250414-WA0038.jpg" alt="Space Explorer Logo">
+      <img src="https://i.ibb.co/nNgjzy9K/Carina-Nebula-Cosmic-Cliffs-NGC-3324-James-Webb-Space-Telescope-NIRCam.jpg" alt="Nebula">
+    </div>
+    <div class="welcome-text">
+      <p>welcome</p>
+      <p>to</p>
+      <p><span class="highlight">my</span></p>
+      <p>space</p>
+      <p><strong>explorer</strong></p>
+    </div>
+  </div>
+</body>
+</html>    
